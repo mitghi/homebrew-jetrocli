@@ -1,2 +1,2 @@
 # homebrew-jetrocli
-Homebrew repository for Jetro
+Homebrew repository for [Jetro](https://github.com/mitghi/jetro)
