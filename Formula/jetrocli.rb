@@ -1,25 +1,25 @@
 class Jetrocli < Formula
   desc "Interactive split-pane TUI for jetro: paste JSON, do live query"
   homepage "https://github.com/mitghi/jetrocli"
-  version "0.2.10"
+  version "0.2.11"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/mitghi/jetrocli/releases/download/v0.2.10/jetrocli-aarch64-apple-darwin.tar.xz"
-      sha256 "eb9d22a176dab2f62bca3f14ed54d922562c7b98924856d44ea646bd92f537e6"
+      url "https://github.com/mitghi/jetrocli/releases/download/v0.2.11/jetrocli-aarch64-apple-darwin.tar.xz"
+      sha256 "a79acafb0111da7f071a0cde06bb236cddbd3b93e5bb171e8fee3221a7fda9db"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mitghi/jetrocli/releases/download/v0.2.10/jetrocli-x86_64-apple-darwin.tar.xz"
-      sha256 "f259d45a23087b5e81ff797ae517c23446399e0cf47006104527828ff3778304"
+      url "https://github.com/mitghi/jetrocli/releases/download/v0.2.11/jetrocli-x86_64-apple-darwin.tar.xz"
+      sha256 "ebfa7380c93957112477b6635a1186eb01106c0139908d18f9d3127e6378b30a"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/mitghi/jetrocli/releases/download/v0.2.10/jetrocli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a331c7631300428cd87885c1aa79234de214c65de51949749745bef8cee3e1a0"
+      url "https://github.com/mitghi/jetrocli/releases/download/v0.2.11/jetrocli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "cc7bcd0617a23c4f99b090c742ee803ba7b019a46dea06a51b8c79484eafa24b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/mitghi/jetrocli/releases/download/v0.2.10/jetrocli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0f4f4b6bad34606c6eda93775f12817dbfc9dbba681c491fd228d92b71ad543e"
+      url "https://github.com/mitghi/jetrocli/releases/download/v0.2.11/jetrocli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "e972b88ecbd721818a635b2f3f05c536103474465b40f715f9a2cd7a9d82a8d4"
     end
   end
   license "MIT"
